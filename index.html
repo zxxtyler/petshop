@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Shop Florianópolis</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container">
+                <a class="navbar-brand logo" href="#">
+                    <img src="img/pet-shop-logo.png" alt="Pet Shop Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html
+                            >Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="banhotosa.html">Banho e Tosa</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Hotel Resort</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Adestramento</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/Banner-01.jpg" class="d-block w-100" alt="Banner 1 Pet Shop">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/banner.jpg" class="d-block w-100" alt="Banner 2 Pet Shop">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div class="container my-5 coluna">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img src="img/banho-tosa.jpg" alt="Banho e Tosa" class="img-fluid">
+                        <p>Banho e Tosa</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img src="img/vacina-cachorro.jpg" alt="Pet Care" class="img-fluid">
+                        <p>Pet Care</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img src="img/adestramento.jpg" alt="Adestramento" class="img-fluid">
+                        <p>Adestramento</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img src="img/hotel-para-cachorros.jpg" alt="Hotel Resort" class="img-fluid">
+                        <p>Hotel Resort</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="subtitulo">SEJA BEM-VINDO AO PETSHOP!</h2>
+
+        <div class="container my-5">
+            <div class="row">
+
+                <div class="col-lg-8">
+                    <h3>Relação com o cliente</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam, excepturi tempora maiores
+                        distinctio nobis quisquam possimus reprehenderit architecto tenetur exercitationem illo magnam
+                        libero quos repudiandae. Numquam officia rerum consequuntur ab? Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Nemo id, dicta labore delectus impedit maiores cumque sunt culpa
+                        ex itaque ut quo sequi facere et veniam, quam molestias corporis at.</p>
+                </div>
+
+                <div class="col-lg-4">
+                    <img src="img/rottweiller.jpg" alt="Rottweiller" class="img-fluid">
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row g-0">
+
+            <div class="col-lg-6">
+                <img src="img/banner.jpg" alt="Atendimento Delivery" class="w-100">
+            </div>
+
+            
+            <div class="col-lg-6 banner-delivery">
+                <h4>Atendimento Delivery</h4>
+                <h2>0800 555 3232</h2>
+            </div>
+
+        </div>
+
+        <section class="fale-conosco" id="contato">
+            <div class="container">
+                <h6 class="text-center text-white mb-4"><strong>Fale Conosco</strong></h6>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <input type="text" class="form-control mb-2" placeholder="Nome">
+                        <input type="email" class="form-control mb-2" placeholder="E-mail">
+                        <textarea class="form-control mb-2" rows="4" placeholder="Mensagem"></textarea>
+                        <div class="text-end">
+                            <button class="botao">Enviar Agora</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 text-white ps-5">
+                        <p><i class="bi bi-telephone-fill iconcima"></i>(48) 3222 0098</p>
+                        <p><i class="bi bi-whatsapp iconcima"></i>(48) 99383 0928</p>
+                        <p><i class="bi bi-geo-alt-fill iconcima"></i>Rua Marechal Deodoro, 55 - Centro -
+                            Florianópolis/SC</p>
+                        <div class="iconbaixo">
+                            <i class="bi bi-facebook"></i>
+                            <i class="bi bi-instagram"></i>
+                            <i class="bi bi-linkedin"></i>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </section>
+
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3528.813247201992!2d-50.33095382474219!3d-27.815518776120726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94e01f48d6eadb99%3A0x45da5654ccfae84b!2sR.%20Mal.%20Deodoro%2C%2055%20-%20Centro%2C%20Lages%20-%20SC%2C%2088501-000!5e0!3m2!1spt-BR!2sbr!4v1773187754636!5m2!1spt-BR!2sbr"
+            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <footer>
+            <p>
+                &copy; 2020 - Pet Shop. Todos os direitos reservados.
+            </p>
+        </footer>
+
+    </main>
+
+    <script src="js/bootstrap.js"></script>
+</body>
+
+</html>
