@@ -42,7 +42,7 @@
     }
 }
 
-.card img{
+.card img {
     height: 200px;
 }
 
@@ -55,7 +55,7 @@
     margin: 0;
 }
 
-.subtitulo{
+.subtitulo {
     background-color: #c4c4c4;
     text-align: center;
     padding: 35px 0;
@@ -89,27 +89,27 @@
     border-radius: 0;
 }
 
-.botao{
+.botao {
     background-color: #2e2e2e;
     color: #fff;
 }
 
-footer{
+footer {
     background-color: rgb(160, 160, 160);
     display: flex;
     justify-content: center;
 }
 
-footer p{
+footer p {
     font-size: 13px;
     padding: 15px 0 5px 0;
 }
 
-.iconcima{
+.iconcima {
     padding-right: 10px;
 }
 
-.iconbaixo{
+.iconbaixo {
     font-size: 30px;
     color: white;
 }
@@ -150,17 +150,17 @@ footer p{
     font-size: 3rem;
 }
 
-.descricaoBanho{
+.descricaoBanho {
     font-size: 15px;
 }
 
-.descricaoPetcare{
+.descricaoPetcare {
     font-size: 15px;
 }
 
-.descricaoPetcare button{
+.descricaoPetcare button {
     width: 17em;
-   
+
 }
 
 /* a partir daq é pro adestramento */
