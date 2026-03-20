@@ -4,14 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Banho e Tosa</title>
+    <title>Pet Shop Florianópolis</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="style.css">
+    <script src="js/bootstrap.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 </head>
 
 <body>
-
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container">
@@ -46,49 +46,92 @@
     </header>
 
     <main>
-        <div class="titulo-pagina">
-            <h2>BANHO E TOSA</h2>
+        <div class="banner-adestramento">
+            <img src="img/banner-adestramento.jpg" alt="Adestramento de Cães" class="w-100">
         </div>
 
         <div class="container my-5">
-            <div class="row">
-                <div class="col-lg-6">
-                    <img src="img/banho-tosa.jpg" alt="Banho e Tosa">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut suscipit, mollitia, cupiditate quod qui
+                reiciendis alias doloribus aliquid laboriosam tenetur expedita, vero a obcaecati velit explicabo
+                laudantium beatae impedit est!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi excepturi nam, dolorum ipsam, deserunt
+                nulla necessitatibus provident consequatur perspiciatis numquam, minima aliquam reiciendis voluptatibus
+                dignissimos distinctio.</p>
+        </div>
+
+        <div class="container my-5 fileiraCao">
+            <div class="row g-1">
+                <div class="col">
+                    <img src="img/adestramento1.jpg" alt="Adestramento 1" class="img-fluid">
                 </div>
-                <div class="col-lg-6 descricaoBanho">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore obcaecati provident quas minus,
-                        illo consequatur aliquam quidem assumenda, adipisci non aspernatur voluptatibus, amet alias!
-                        Quod iste dolor suscipit soluta molestias.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore sunt dignissimos sapiente
-                        perspiciatis ratione? Enim saepe animi voluptas aspernatur illum reprehenderit perspiciatis
-                        voluptatum tenetur impedit nisi, tempore fugit fuga optio?</p>
-                    <button class="botao-saiba">Saiba mais</button>
+                <div class="col">
+                    <img src="img/adestramento2.jpg" alt="Adestramento 2" class="img-fluid">
+                </div>
+                <div class="col">
+                    <img src="img/adestramento3.jpg" alt="Adestramento 3" class="img-fluid">
+                </div>
+                <div class="col">
+                    <img src="img/adestramento4.jpg" alt="Adestramento 4" class="img-fluid">
+                </div>
+                <div class="col">
+                    <img src="img/adestramento5.jpg" alt="Adestramento 5" class="img-fluid">
                 </div>
             </div>
         </div>
 
-        <div class="secao-petcare">
-            <h2><i class="bi bi-emoji-laughing"></i> PET CARE <i class="bi bi-emoji-laughing"></i></i></h2>
-        </div>
 
         <div class="container my-5">
-            <div class="row align-items-center">
-                <div class="col-lg-8 descricaoPetcare">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore obcaecati provident quas minus,
-                        illo consequatur aliquam quidem assumenda, adipisci non aspernatur voluptatibus, amet alias!
-                        Quod iste dolor suscipit soluta molestias.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore sunt dignissimos sapiente
-                        perspiciatis ratione? Enim saepe animi voluptas aspernatur illum reprehenderit perspiciatis
-                        voluptatum tenetur impedit nisi, tempore fugit fuga optio?</p>
-                    <button class="botao-saiba">Saiba mais</button>
+            <h4 class="text-center fw-bold mb-4">Perguntas Frequentes</h4>
+
+            <div class="accordion" id="accordionAdestramento">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#pergunta1">
+                            Qual a melhor idade para adestramento?
+                        </button>
+                    </h2>
+                    <div id="pergunta1" class="accordion-collapse collapse show"
+                        data-bs-parent="#accordionAdestramento">
+                        <div class="accordion-body">
+                            Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus
+                            nisi metus,
+                            molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam
+                            mi. Proin
+                            viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+                        </div>
+                    </div>
                 </div>
-                <div class="col-lg-4">
-                    <img src="img/vacina-cachorro.jpg" alt="Pet Care" class="img-fluid">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#pergunta2">
+                            Toda raça pode ser adestrada?
+                        </button>
+                    </h2>
+                    <div id="pergunta2" class="accordion-collapse collapse" data-bs-parent="#accordionAdestramento">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#pergunta3">
+                            Quanto tempo leva para o cachorro estar preparado?
+                        </button>
+                    </h2>
+                    <div id="pergunta3" class="accordion-collapse collapse" data-bs-parent="#accordionAdestramento">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <section class="fale-conosco" id="contato">
+         <section class="fale-conosco" id="contato">
             <div class="container">
                 <h6 class="text-center text-white mb-4"><strong>Fale Conosco</strong></h6>
                 <div class="row">
@@ -130,12 +173,7 @@
             </p>
         </footer>
 
-
-        
-
     </main>
-
-
 
 </body>
 

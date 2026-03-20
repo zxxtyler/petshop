@@ -113,3 +113,105 @@ footer p{
     font-size: 30px;
     color: white;
 }
+
+/* a partir daq é banho e tosa */
+
+.titulo-pagina {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 20px;
+    width: 30em;
+    height: 55px;
+    margin-top: 15px;
+
+}
+
+.titulo-pagina h2 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.botao-saiba {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 10px;
+    width: 13em;
+}
+
+.secao-petcare {
+    background-color: #e8e8e8;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.secao-petcare h2 {
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.descricaoBanho{
+    font-size: 15px;
+}
+
+.descricaoPetcare{
+    font-size: 15px;
+}
+
+.descricaoPetcare button{
+    width: 17em;
+   
+}
+
+/* a partir daq é pro adestramento */
+.banner-adestramento img {
+    height: 100%;
+}
+
+.fileiraCao {
+    padding: 2em 12em;
+}
+
+.fileiraCao img {
+    height: 130px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.accordion-button {
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 8px 15px;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #666;
+    color: #fff;
+    box-shadow: none;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-item {
+    border-radius: 0 !important;
+}
+
+.accordion-button {
+    border-radius: 0 !important;
+}
+
+.accordion-body {
+    padding-bottom: 60px;
+}
+
+.accordion-button {
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.accordion-button::after {
+    margin: 0;
+}
